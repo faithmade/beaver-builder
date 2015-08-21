@@ -1,0 +1,49 @@
+.fl-accordion-button {
+	cursor: pointer;
+	display: table;
+}
+.fl-accordion-button-label {
+	display: table-cell;
+	width: 100%;
+}
+.fl-accordion-button-icon {
+	display: table-cell;
+	line-height: inherit;
+	opacity: .5;
+	filter: alpha(opacity = 50);
+	padding-left: 15px;
+	vertical-align: middle;
+}
+.fl-accordion-content {
+	display: none;
+}
+
+/* Small */
+.fl-accordion-small .fl-accordion-button {
+	padding: 10px 15px;
+}
+.fl-accordion-small .fl-accordion-content {
+	padding: 0 30px 10px 15px;
+}
+
+/* Medium */
+.fl-accordion-medium .fl-accordion-button {
+	padding: 15px 20px;
+}
+.fl-accordion-medium .fl-accordion-button-label {
+	font-size: 20px;
+}
+.fl-accordion-medium .fl-accordion-content {
+	padding: 0 40px 15px 20px;
+}
+
+/* Large */
+.fl-accordion-large .fl-accordion-button {
+	padding: 20px 25px;
+}
+.fl-accordion-large .fl-accordion-button-label {
+	font-size: 26px;
+}
+.fl-accordion-large .fl-accordion-content {
+	padding: 0 50px 25px 25px;
+}

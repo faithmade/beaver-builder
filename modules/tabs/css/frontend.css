@@ -1,0 +1,86 @@
+/*  Labels
+------------------------------------ */
+
+.fl-tabs-label {
+	cursor: pointer;
+}
+.fl-tabs-label {
+	padding: 12px 18px;
+}
+.fl-tabs-label.fl-tab-active {
+	background: #fff;
+	position: relative;
+	z-index: 1;
+}
+
+/*  Panel Labels
+------------------------------------ */
+
+.fl-tabs-panel-label {
+	display: none;
+}
+.fl-tabs-panel-label span {
+	display: table-cell;
+	width: 100%;
+}
+.fl-tabs-panel-label .fa {
+	display: table-cell;
+	line-height: inherit;
+	opacity: .5;
+	filter: alpha(opacity = 50);
+	padding-left: 15px;
+	vertical-align: middle;
+}
+
+/*  Panels
+------------------------------------ */
+
+.fl-tabs-panels {
+	background: #fff;
+	border-width: 1px;
+	border-style: solid;
+}
+.fl-tabs-panel-content {
+	display: none;
+	padding: 18px;
+}
+.fl-tabs-panel-content.fl-tab-active {
+	display: block;
+}
+.fl-tabs-panel-content p:last-child {
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+/*  Horizontal
+------------------------------------ */
+
+.fl-tabs-horizontal .fl-tabs-label {
+	float: left;
+}
+.fl-tabs-horizontal .fl-tabs-label.fl-tab-active {
+	border-width: 1px;
+	border-style: solid;
+	border-bottom: none !important;
+	padding: 11px 18px 12px;
+	top: 1px;
+}
+
+/*  Vertical
+------------------------------------ */
+
+.fl-tabs-vertical .fl-tabs-labels {
+	float: left;
+	width: 30%;
+}
+.fl-tabs-vertical .fl-tabs-label.fl-tab-active {
+	border-width: 1px;
+	border-style: solid;
+	border-right: none !important;
+	left: 1px;
+	padding: 11px 18px 11px 16px;
+}
+.fl-tabs-vertical .fl-tabs-panels {
+	float: left;
+	width: 70%;
+}

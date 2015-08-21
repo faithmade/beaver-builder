@@ -1,0 +1,101 @@
+/* Wrappers */
+.fl-module-content-slider .bx-wrapper {
+	margin: 0 auto 40px;
+}
+.fl-content-slider .fl-slide {
+	position: absolute;
+	top: 0;
+	visibility: hidden;
+}
+.fl-content-slider .fl-slide:first-child,
+.fl-content-slider-loaded .fl-slide {
+	position: relative;
+	visibility: visible;
+}
+
+/* Controls */
+.bx-wrapper .bx-controls-direction a {
+	z-index: 99;
+}
+
+/* Background Photo */
+.fl-content-slider .fl-slide-bg-photo {
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	bottom: 0;
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 1;
+}
+.fl-content-slider .fl-slide-bg-photo a {
+	bottom: 0;
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 1;
+}
+.fl-content-slider .fl-slide-bg-photo-img {
+	display: none;
+}
+
+/* Foreground Photo/Video */
+.fl-slide-photo {
+	position: relative;
+	text-align: center;
+	z-index: 2;
+}
+.fl-slide-text-left .fl-slide-photo-wrap {
+	float: right;
+}
+.fl-slide-text-center .fl-slide-photo-wrap {
+	text-align: center;
+}
+.fl-slide-text-center .fl-slide-photo-wrap img {
+	margin: 0 auto;
+}
+.fl-slide-text-right .fl-slide-photo-wrap {
+	float: left;
+}
+
+/* Mobile Photo/Video */
+.fl-slide-mobile-photo {
+	display: none;
+}
+
+/* Title and Text Position */
+.fl-slide-content {
+	position: relative;
+	z-index: 2;
+}
+.fl-slide-text-left .fl-slide-content-wrap {
+	float: left;
+	text-align: left;
+}
+.fl-slide-text-center .fl-slide-content-wrap {
+	margin: 0 auto;
+	text-align: center;
+}
+.fl-slide-text-right .fl-slide-content-wrap {
+	float: right;
+	text-align: left;
+}
+
+/* Title and Text Style */
+.fl-slide-title,
+.fl-slide-text > * {
+	line-height: 1.4em !important;
+	margin: 0 0 20px !important;
+	padding: 0 !important;
+}
+.fl-slide-text > *:last-child {
+	margin: 0 !important;
+}
+
+/* Buttons */
+.fl-slide-cta-button {
+	padding-top: 24px;
+}

@@ -1,0 +1,18 @@
+.fl-form-field input,
+.fl-form-field input[type=text] {
+	height: auto;
+	width: 100%;
+}
+.fl-subscribe-form-inline .fl-form-field {
+	float: left;
+	margin: 0;
+	padding-right: 10px;
+	width: 33.33%;
+}
+.fl-subscribe-form-inline.fl-subscribe-form-name-hide .fl-form-field {
+	width: 66.66%;
+}
+.fl-subscribe-form-inline .fl-form-button {
+	float: left;
+	width: 33.33%;
+}

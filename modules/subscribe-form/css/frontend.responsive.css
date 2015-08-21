@@ -1,0 +1,13 @@
+.fl-subscribe-form-inline .fl-form-field {
+	float: none;
+	margin: 0 0 15px;
+	padding-right: 0;
+	width: 100%;
+}
+.fl-subscribe-form-inline.fl-subscribe-form-name-hide .fl-form-field {
+	width: 100%;
+}
+.fl-subscribe-form-inline .fl-form-button {
+	float: none;
+	width: 100%;
+}

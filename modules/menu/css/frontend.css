@@ -1,0 +1,102 @@
+.fl-menu ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.fl-menu .menu:before,
+.fl-menu .menu:after{
+	content: '';
+	display: table;
+	clear: both;
+}
+
+/* Horizontal menus */
+
+.fl-menu .menu{
+	position: relative;
+	text-align: left;
+	min-width: 240px;
+}	
+.fl-menu li{
+	position: relative;
+}
+.fl-menu a{
+	display: block;
+	padding: 10px;
+	line-height: 1;
+	text-decoration: none;
+}
+.fl-menu .sub-menu{ 
+	min-width: 240px;
+	background-color: #fff; 
+}
+
+/* Submenus */
+
+.fl-menu .fl-has-submenu-container{ position: relative; }
+.fl-menu .fl-has-submenu-container a{ padding-right: 38px; }
+
+/* Submenu - accordion, expanded */
+.fl-menu .fl-menu-accordion .fl-has-submenu > .sub-menu{
+	display: none;
+}
+
+/* Toggle - General */
+
+.fl-menu .fl-menu-toggle{
+	position: absolute;
+	top: 50%;
+	right: 0;
+	cursor: pointer;
+}
+.fl-menu .fl-toggle-arrows .fl-menu-toggle:before,
+.fl-menu .fl-toggle-none .fl-menu-toggle:before{
+	border-color: #333;
+}
+.fl-menu .fl-menu-expanded .fl-menu-toggle{
+	display: none;
+}
+
+/*mobile menu - hamburger icon*/
+
+.fl-menu .fl-menu-mobile-toggle {
+	position: relative;
+	padding: 6px 8px;
+	background-color: transparent;
+	border: none;
+	color: #333;
+	border-radius: 0;
+}
+
+.fl-menu .fl-menu-mobile-toggle.text{
+	width: 100%;
+	text-align: center;
+}
+
+.fl-menu .fl-menu-mobile-toggle.hamburger .fl-menu-mobile-toggle-label,
+.fl-menu .fl-menu-mobile-toggle.hamburger-label .fl-menu-mobile-toggle-label{
+	display: inline-block;
+	margin-left: 10px;
+	vertical-align: middle;
+}
+.fl-menu .fl-menu-mobile-toggle.hamburger .svg-container,
+.fl-menu .fl-menu-mobile-toggle.hamburger-label .svg-container{
+	display: inline-block;
+	position: relative;
+	width: 1.4em;
+	height: 1.4em;
+	vertical-align: middle;
+}
+.fl-menu .fl-menu-mobile-toggle.hamburger .hamburger-menu,
+.fl-menu .fl-menu-mobile-toggle.hamburger-label .hamburger-menu{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+.fl-menu .fl-menu-mobile-toggle.hamburger .hamburger-menu rect,
+.fl-menu .fl-menu-mobile-toggle.hamburger-label .hamburger-menu rect{
+	fill: currentColor;
+}
